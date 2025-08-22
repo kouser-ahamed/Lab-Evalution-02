@@ -28,12 +28,9 @@ if (isset($_GET['delete'])) {
 
 <body>
     <h2>Welcome to Your Task Manager</h2>
-    <a href="logout.php">Logout</a>
-
-
     <form method="POST">
-        Title: <input type="text" name="title" required>
-        Description: <input type="text" name="desc" required>
+        Title: <input type="text" name="title" required><br>
+        Description: <input type="text" name="desc" required><br>
         <button type="submit" name="add">Add Task</button>
     </form>
 
@@ -47,6 +44,7 @@ if (isset($_GET['delete'])) {
         }
         ?>
     </ul>
+    <a href="logout.php">Logout</a>
 </body>
 
 </html>
